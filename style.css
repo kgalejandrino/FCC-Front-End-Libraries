@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 32px;
+    background-color: #218d21;
+}
+
+#quote-box {
+    color: #218d21;
+    background-color: #fff;
+    width: 540px;
+    padding: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+#text { 
+    text-align: center;
+}
+
+#author {
+    text-align: right;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#icon-twitter {
+    font-size: 48px;
+    padding-left: 12px;
+    color: #218d21;
+}
+
+#buttons {
+    margin-top: 18px;
+}
+
+#new-quote {
+    float: right;
+    outline: none;
+    border: none;
+    padding: 8px;
+    width: 110px;
+    height: 40px;
+    margin-top: 4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #218d21;
+    color: #fff
+}
+
+/* Media Queries */
+@media only screen and (max-width: 550px) {
+    #quote-box {
+        width: 380px;
+    }
+}
+
+@media only screen and (max-width: 384px) {
+    #quote-box {
+        width: 320px;
+    }
+}
+
