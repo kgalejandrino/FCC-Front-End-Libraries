@@ -23,23 +23,23 @@ Note: Codepen link on each project is also available for Live Demo!
 
 ### List of Projects
 * #### Build a Random Quote Machine
-  Live Demo: https://codepen.io/kgalejandrino/full/yLayWar
+  Live Demo: https://codepen.io/kgalejandrino/full/yLayWar \
   Link to User Stories: https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine
 
 * #### Build a Markdown Previewer
-  Live Demo: https://codepen.io/kgalejandrino/full/WNGrdQb
+  Live Demo: https://codepen.io/kgalejandrino/full/WNGrdQb \
   Link to User Stories: https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer
 
 * #### Build a Drum Machine
-  Live Demo: https://codepen.io/kgalejandrino/full/JjRKpVq
+  Live Demo: https://codepen.io/kgalejandrino/full/JjRKpVq \
   Link to User Stories: https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-drum-machine
 
 * #### Build a JavaScript Calculator
-  Live Demo: https://codepen.io/kgalejandrino/full/xxEXrgZ
+  Live Demo: https://codepen.io/kgalejandrino/full/xxEXrgZ \
   Link to User Stories: https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator
 
 * #### Build a 25 + 5 Clock
-  Live Demo: https://codepen.io/kgalejandrino/full/JjRpoWK
+  Live Demo: https://codepen.io/kgalejandrino/full/JjRpoWK \
   Link to User Stories: https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-25--5-clock
 
 
