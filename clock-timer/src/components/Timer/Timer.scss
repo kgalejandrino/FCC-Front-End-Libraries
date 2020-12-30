@@ -1,0 +1,49 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('../../assets/fonts/digital-7.ttf');
+}
+
+@mixin border($style, $color, $width) {
+    border-style: $style;
+    border-color: $color;
+    border-width: $width;
+}
+
+#timer {
+    text-align: center;
+    margin-top: 24px;
+    background-color: #ccc;
+    color: #000;
+    @include border(outset, #474747, 4px);
+    box-shadow: 2px 4px 4px #474747;
+
+    #timer-label { 
+        font-weight: 400; 
+        margin: 8px 0;
+    }
+
+    #time-left {
+        font-family:'digital-clock-font';
+        font-size: 72px; 
+        width: 620px;
+        margin: 0 auto 8px;
+        padding: 8px;
+        background-color: #000;
+        @include border(double, #fdfcfc, 4px);
+    }
+
+    i {
+        font-size: 36px;
+        color: #000;
+        margin-bottom: 8px;
+        margin-right: 12px;
+        cursor: pointer;
+    }
+
+    /* Small phones - Small Tablet: from 0 to 767 px */
+    @media only screen and (max-width: 767px) {
+        #time-left { 
+            width: 90%;
+        }
+    }
+}

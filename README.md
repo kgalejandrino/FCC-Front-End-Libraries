@@ -5,41 +5,44 @@
 1. [Purpose of the Project](#purpose-of-the-project)
 2. [Install](#install)
 3. [List of Projects](#list-of-projects)
+  -  [Build a Random Quote Machine](#build-a-random-quote-machine)
+  -  [Build a Markdown Previewer](#build-a-markdown-previewer)
+  -  [Build a Drum Machine](#build-a-drum-machine)
+  -  [Build a JavaScript Calculator](#build-a-javascript-calculator)
+  -  [Build a 25 + 5 Clock](#build-a-25-+-5-clock)
 
 ## Purpose of the Project:
-The purpose of the project is to fulfill the user stories that are provided and get all the test cases to pass. As it is suggested to use one of the frontend frameworks learned in this curriculum, I have  completed the project using plain JavaScript for practice. 
+The purpose of the project is to fulfill the user stories that are provided and get all the test cases to pass.  
 
 ## Install 
-1. Download and unzip repo
-2. Run index.html
+1. Clone project repo
+2. `npm install` to get required packages
+3. `npm start` to start the local server
 
 Note: Codepen link on each project is also available for Live Demo!
 
 ### List of Projects
 * #### Build a Random Quote Machine
-  Live Demo: https://codepen.io/kgalejandrino/pen/yLayWar
+  Live Demo: https://codepen.io/kgalejandrino/full/yLayWar
+  Link to User Stories: https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine
 
-  - User Story #1: I can see a wrapper element with a corresponding id="quote-box".
+* #### Build a Markdown Previewer
+  Live Demo: https://codepen.io/kgalejandrino/full/WNGrdQb
+  Link to User Stories: https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer
 
-  - User Story #2: Within #quote-box, I can see an element with a corresponding id="text".
+* #### Build a Drum Machine
+  Live Demo: https://codepen.io/kgalejandrino/full/JjRKpVq
+  Link to User Stories: https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-drum-machine
 
-  - User Story #3: Within #quote-box, I can see an element with a corresponding id="author".
+* #### Build a JavaScript Calculator
+  Live Demo: https://codepen.io/kgalejandrino/full/xxEXrgZ
+  Link to User Stories: https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator
 
-  - User Story #4: Within #quote-box, I can see a clickable element with a corresponding id="new-quote".
+* #### Build a 25 + 5 Clock
+  Live Demo: https://codepen.io/kgalejandrino/full/JjRpoWK
+  Link to User Stories: https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-25--5-clock
 
-  - User Story #5: Within #quote-box, I can see a clickable a element with a corresponding id="tweet-quote".
 
-  - User Story #6: On first load, my quote machine displays a random quote in the element with id="text".
-
-  - User Story #7: On first load, my quote machine displays the random quote's author in the element with id="author".
-
-  - User Story #8: When the #new-quote button is clicked, my quote machine should fetch a new quote and display it in the #text element.
-
-  - User Story #9: My quote machine should fetch the new quote's author when the #new-quote button is clicked and display it in the #author element.
-
-  - User Story #10: I can tweet the current quote by clicking on the #tweet-quotea element. This a element should include the "twitter.com/intent/tweet" path in its href attribute to tweet the current quote.
-
-  - User Story #11: The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
-
+  
 
 

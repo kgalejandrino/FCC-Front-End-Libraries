@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b6b6b6;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.App {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 650px;
+    height: 450px;
+}
+
+#app-title {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+}
+  
+/* Small phones - Small Tablet: from 0 to 767 px */
+@media only screen and (max-width: 767px) {
+    .App { 
+        align-items: flex-start;
+        margin-top: 150px;
+    }
+
+    #container { width: 100%;}
+
+}
+
+

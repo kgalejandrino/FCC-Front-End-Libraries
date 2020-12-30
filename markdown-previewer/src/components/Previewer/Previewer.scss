@@ -1,0 +1,39 @@
+#preview {
+    padding: 4px;
+    overflow: hidden;
+    overflow-y: auto;
+    
+    * { margin-top: 4px;}
+  
+    blockquote {
+      border-left: 3px solid #db5b4a;
+      color: #db5b4a;
+      padding-left: 5px;
+      margin-left: 25px;
+    }
+    
+    code {
+      background-color: #fff;
+      color: #000;
+      font-weight: bold;
+    }
+    
+    pre {
+      background-color: #fff;
+      color: #000;
+      padding: 6px;
+    }
+    
+    a { color: #4747f3; }
+  
+    h1 { border-bottom: 2px solid #fff; }
+    
+    h2 { border-bottom: 1px solid #fff; }
+    
+    table { border-collapse: collapse; }
+    
+    td, th {
+      border: 2px solid #fff;
+      padding: 4px;
+    }
+  }

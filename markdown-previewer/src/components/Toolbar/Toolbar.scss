@@ -1,0 +1,35 @@
+.toolbar {
+    background-color: #363636;
+    padding: 4px;
+    width: 580px;
+    box-shadow: 0 1px 1px 1px #b1b0b0;
+  
+    span { vertical-align: 2px; }
+  
+    #icon {
+      display: inline-block;
+      margin-right: 8px;
+      margin-top: 2px;
+    }
+}
+
+/* Big tablet to large screens (desktop): from 768 to 1200 px */
+@media only screen and (max-width: 1200px) {
+  .toolbar { width: 480px; }
+}
+
+/* Small tablet to Big tablet: from 768 to 1023 px */
+@media only screen and (max-width: 1023px) {
+  .toolbar { width: 600px; }
+}
+
+/* Small phones to small tablet: from 481 to 767 px */
+@media only screen and (max-width: 767px) {
+  .toolbar { width: 450px; }
+}
+
+/* Small phones: from 0 to 480 px */
+@media only screen and (max-width: 480px) {
+
+  .toolbar { width: 350px; }
+}

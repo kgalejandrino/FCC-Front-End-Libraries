@@ -1,0 +1,28 @@
+.drum-pad {
+    border-radius: 4px;
+    border-style: outset;
+    border-width: 6px;
+    border-color: rgb(36, 36, 36);
+    width: 140px;
+    height: 80px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    cursor: pointer;
+    background: radial-gradient(ellipse at center,  #353535 0%,#000000 100%);
+}
+
+.active {
+    box-shadow: 0 0 4px 4px rgb(226, 5, 5);
+}
+
+div[disabled] {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+@media (max-width: 712px) {
+    .drum-pad { width: 100px; }
+}

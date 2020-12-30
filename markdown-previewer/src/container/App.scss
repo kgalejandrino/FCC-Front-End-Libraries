@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5e5e5e;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.App { height: 100vh; }
+
+#title {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 40px;
+  letter-spacing: 1px;
+}
+
+#flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.container { padding: 18px; }
+
+.notepad {
+  width: 580px;
+  height: 650px;
+  background-color: #1a1a1f;
+  box-shadow: 0 1px 1px 1px #b1b0b0;
+  color: #fff;
+}
+ 
+
+/* Big tablet to large screens (desktop): from 768 to 1200 px */
+@media only screen and (max-width: 1200px) {
+  .notepad { width: 480px; }
+}
+
+/* Small tablet to Big tablet: from 768 to 1023 px */
+@media only screen and (max-width: 1023px) {
+  #flex {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .container { padding: 8px; margin: auto;}
+
+  .notepad{ width: 600px; }
+}
+
+/* Small phones to small tablet: from 481 to 767 px */
+@media only screen and (max-width: 767px) {
+  .notepad { width: 450px; }
+}
+
+/* Small phones: from 0 to 480 px */
+@media only screen and (max-width: 480px) {
+
+  .notepad { width: 350px; }
+}
+
+
+

@@ -13,6 +13,13 @@ body {
     background-color: #218d21;
 }
 
+#title {
+    text-align: center;
+    margin-top: 220px;
+    font-size: 56px;
+    color: #fff;
+}
+
 #quote-box {
     color: #218d21;
     background-color: #fff;
