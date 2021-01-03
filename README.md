@@ -1,4 +1,4 @@
-# Free Code Camp - Front End Libraries Certification
+# Free Code Camp - Front End Libraries Projects
 
 ## Table of Contents
 
